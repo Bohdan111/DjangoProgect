@@ -63,7 +63,7 @@ ROOT_URLCONF = 'trydjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/bohdan/dev/trydjango/src/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
